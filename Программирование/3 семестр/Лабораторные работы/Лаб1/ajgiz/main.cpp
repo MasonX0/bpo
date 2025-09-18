@@ -25,7 +25,7 @@ int sum_without_recursive(int from, int to) {
 
 
 int main() {
-    system("chcp 65001");
+    system("chcp 65001");// для русского языка в консоли
     int count_from, count_to;
     cout << "Введите диапазон целых чисел: " << endl;
     cout << "Начало: ";
