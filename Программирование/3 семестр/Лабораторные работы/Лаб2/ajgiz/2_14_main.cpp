@@ -11,8 +11,8 @@ int main() {
     system("chcp 65001");    // Переключаем консоль в UTF-8 режим (Windows)
 
     const int lenght = 10000;
-    ifstream file("1.txt");  // Открываем файл для чтения
-    string list[lenght];      // Массив для хранения 40000 слов
+    ifstream file("input.txt");  // Открываем файл для чтения
+    string list[lenght];      // Массив для хранения lenght слов
     string line;             // Переменная для хранения одной строки файла
     int cnt = 0;             // Счетчик слов
 
@@ -22,11 +22,11 @@ int main() {
     }
 
     // Основной цикл чтения файла
-    while (getline(file, line) && cnt < lenght) {
+    while (getline(file, line)) {
         string word;  // Переменная для текущего слова
 
         // Обрабатываем каждый символ в строке
-        for (int i = 0; i < line.length() && cnt < lenght; i++) {
+        for (int i = 0; i < line.length(); i++) {
             unsigned char c = line[i];  // Текущий байт
 
             // ПРОВЕРКА: Является ли этот байт началом русской буквы в UTF-8?
@@ -57,7 +57,7 @@ int main() {
         }
 
         // Обрабатываем слово, которое могло остаться в конце строки
-        if (!word.empty() && cnt < 40000) {
+        if (!word.empty()) {
             list[cnt] = word;
             cnt++;
         }
@@ -75,9 +75,6 @@ int main() {
             nechet_output << list[i] << endl;
         }
     }
-    // ЗАКРЫВАЕМ файлы
-    chet_output.close();
-    nechet_output.close();
 
     cout << "Обработано слов: " << cnt << endl;
     cout << "Результаты сохранены в chet_output.txt и nechet_output.txt" << endl;
