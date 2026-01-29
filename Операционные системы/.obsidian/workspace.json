@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "551f6552c8c71704",
+    "type": "split",
+    "children": [
+      {
+        "id": "8238b3888372185f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0731bcabf56fb860",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "4 cеместр/Лабы/ЛАБЫ.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ЛАБЫ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfb3fa5fc70231f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "406708774f71161a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b766e5fc716c56ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "39b7ac1d8d7d615e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "e8e21386c8711b61",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "93115b49661b5d00",
+    "type": "split",
+    "children": [
+      {
+        "id": "edea2abe247342d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5354e813d6908b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "28108a6ea47fd5e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "aaf3507e1743d67a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "8c2cbda641961b67",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "33e3d764edb89fd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "b766e5fc716c56ee",
+  "lastOpenFiles": [
+    "4 cеместр/Лабы/1/Лабораторная работа номер №1. \"Счетные ресурсы\".md",
+    "readme.md",
+    "4 cеместр/Лекции/ОС 29.01.2026.md",
+    "4 cеместр/Лекции/OC 28.01.2026.md",
+    "4 cеместр/Лабы/ЛАБЫ.pdf",
+    "4 cеместр/Прочее/Этапы выполнения файла/0. Общие моменты.md",
+    "4 cеместр/Лабы/Лабораторная работа номер №1. \"Счетные ресурсы\".md",
+    "4 cеместр/Лабы/1",
+    "4 cеместр/Лабы/экзаменационныеВопросы_23_01_31.docx",
+    "4 cеместр/Лабы/операционныеСистемы_25_01_23.pdf",
+    "4 cеместр/Прочее/Этапы выполнения файла/1.Preprocessing (.c → .i).md"
+  ]
+}
